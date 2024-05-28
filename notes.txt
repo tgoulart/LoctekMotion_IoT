@@ -1,0 +1,12 @@
+
+- enable serial port explicitly via "sudo raspi-config"
+
+- install stuff with "sudo apt install <name>"
+  - cmake, minicom
+
+ Use /dev/serial0 instead
+
+- Problem: https://forums.raspberrypi.com/viewtopic.php?t=361218
+  - Solution: https://gpiozero.readthedocs.io/en/stable/migrating_from_rpigpio.html
+
+- 
